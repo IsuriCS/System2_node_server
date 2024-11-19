@@ -1,7 +1,7 @@
 const app = require('./functions/authorization/authorization')
 
-const port = 3000;
+const PORT = 3000;
 
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
